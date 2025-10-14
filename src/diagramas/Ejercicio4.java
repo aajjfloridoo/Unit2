@@ -21,12 +21,10 @@ public class Ejercicio4 {
 			System.out.println(numero1 + " es mayor que " + numero2);
 		}
 
-		else {
-			if (numero2 > numero1) {
-				System.out.println(numero2 + " es mayor que " + numero1);
-			} else {
-				System.out.println(numero1 + " y " + numero2 + " son iguales");
-			}
+		else if (numero2 > numero1) {
+			System.out.println(numero2 + " es mayor que " + numero1);
+		} else {
+			System.out.println(numero1 + " y " + numero2 + " son iguales");
 		}
 		sc.close();
 
