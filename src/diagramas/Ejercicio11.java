@@ -41,7 +41,7 @@ public class Ejercicio11 {
 		salarioNeto = salarioBruto - impuestos;
 	
 		System.out.println("Nombre: " + nombre);
-		System.out.println("Salartio Neto: " + salarioNeto);
+		System.out.println("Salario Neto: " + salarioNeto);
 		System.out.println("Impuestos: " + impuestos);
 
 		sc.close();
