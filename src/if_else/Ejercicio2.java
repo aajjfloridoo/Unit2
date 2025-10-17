@@ -2,22 +2,20 @@ package if_else;
 
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Ejercicio2 {
 
 	public static void main(String[] args) {
-
-		int numero;
 		
+		int numero;
+	
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Indique un número: ");
 		numero = sc.nextInt();
 		
-		if (numero % 2 == 0) {
-			System.out.println(numero + " es par");
-		} else {
-			System.out.println(numero + " es impar");
-		}		
-		
+		if (numero > 1 && numero < -1 && numero != 0) {
+			System.out.println("Su número es casi-cero");
+		}
+
 	}
 }
