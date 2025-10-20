@@ -81,16 +81,7 @@ public class Ejercicio4 {
             System.out.println("Error: Una de las tiradas no es válida.");
         }
         
-        sc.close();
-		
-		
-		
-		
-		
-		
-		
-		
-		
+        sc.close();	
 		
 		
 	}
