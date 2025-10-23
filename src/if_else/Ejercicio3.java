@@ -70,6 +70,8 @@ public class Ejercicio3 {
 			System.out.println("El ejercicio no tiene soluciones reales");
 
 		}
+			sc.close();
 
 	}
 }
+
