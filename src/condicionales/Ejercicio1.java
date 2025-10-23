@@ -23,11 +23,11 @@ public class Ejercicio1 {
             System.out.println("El número se encuentra fuera de rango");
 
         } else if (numero < 10) {
-            // Números de 1 cifra (0-9) - siempre son capicúa
+            // Mostramos mensaje para números de una cifra
             System.out.println("El número es capicúa ya que solo dispone de una cifra");
 
         } else if (numero < 100) {
-            // Números de 2 cifras (10-99)
+            // Verificamos si la primera cifra es igual a la última
             if ((numero / 10) == (numero % 10)) {
                 // Mostramos mensaje de número capicúa
                 System.out.println("El número " + numero + " ES capicúa");
@@ -37,7 +37,7 @@ public class Ejercicio1 {
             }
 
         } else if (numero < 1000) {
-            // Números de 3 cifras (100-999)
+            // Verificamos si la primera cifra es igual a la última
             if ((numero / 100) == (numero % 10)) {
                 // Mostramos mensaje de número capicúa
                 System.out.println("El número " + numero + " ES capicúa");
@@ -47,7 +47,7 @@ public class Ejercicio1 {
             }
 
         } else {
-            // Números de 4 cifras (1000-9999)
+            // Verificamos si primera cifra igual a última y segunda igual a tercera
             if ((numero / 1000 == numero % 10) && ((numero / 100) % 10 == (numero / 10) % 10)) {
                 // Mostramos mensaje de número capicúa
                 System.out.println("El número " + numero + " ES capicúa");
