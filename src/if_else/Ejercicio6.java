@@ -44,6 +44,8 @@ public class Ejercicio6 {
 			// Mostramos mensaje cuando la suma es diferente de c
 			System.out.println("La suma es distinta de " + c);
 		}
+			sc.close();
 	}
+
 
 }
