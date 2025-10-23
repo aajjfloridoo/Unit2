@@ -25,6 +25,9 @@ public class Ejercicio2 {
 			System.out.println("Su número es casi-cero");
 
 		}
+		
+				sc.close();
 
 	}
+
 }
