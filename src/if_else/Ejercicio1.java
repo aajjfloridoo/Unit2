@@ -29,5 +29,8 @@ public class Ejercicio1 {
 			System.out.println(numero + " es impar");
 		}
 
+		sc.close();
+
 	}
+
 }
