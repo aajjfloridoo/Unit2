@@ -47,8 +47,6 @@ public class Exercise04 {
          *    Output = "Blue", "numbers 1-5 only", "Red"
          * 6. If default removed and user entered 10: Output = "Red"
          */
-		
-		
-		
+						
 	}
 }
