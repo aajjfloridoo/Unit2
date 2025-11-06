@@ -7,12 +7,16 @@ public class Ejercicio02 {
 		// Declaracion de variable para almacenar el número introducido por el usuario
 		int numero;
 
+		// Inicializamos la variable numero con el valor 2 (primer número par)
 		numero = 2;
 		
+		// Bucle do-while que se ejecuta al menos una vez
 		do {
+			// Mostramos el valor actual del número par
 			System.out.println(numero);
+			// Incrementamos el número en 2 para obtener el siguiente número par
 			numero = numero + 2;
-		}while (numero <= 200);
+		} while (numero <= 200); // Continuamos mientras el número sea menor o igual a 200
 		
 	}
 }
