@@ -1,27 +1,18 @@
 package ejer_for;
 
-import java.util.Scanner;
-
 public class Ejercicio4 {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		int numero;
-	    int suma = 0;
-		
-		Scanner sc = new Scanner(System.in);
-		
-		for (int i = 0; i < 10; i++) {
-			
-			if (i % 2 != 0) {
-				suma += i;
-			}
-		}
-				
-		System.out.println("Suma: " + suma);
-		
-		
-		
-		
-	}
+        int suma = 0;
+        int numeroImpar = 1;
+
+        for (int i = 0; i < 10; i++) {
+            suma += numeroImpar;
+            numeroImpar += 2; 
+        }
+        
+        System.out.println("Suma: " + suma);
+        
+    }
 }
