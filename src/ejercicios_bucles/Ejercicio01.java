@@ -17,11 +17,11 @@ public class Ejercicio01 {
 		do {
 			System.out.println("Introduzca la hora: ");
 			hora = sc.nextInt();
-			if (hora > 24 || hora < 0) {
+			if (hora > 23 || hora < 0) {
 				System.out.println("--HORA INVÁLIDA. VUELVA A INTENTARLO--");
 				System.out.println("\n");
 			}
-		} while (hora > 24 || hora < 0);
+		} while (hora > 23 || hora < 0);
 		
 		do {
 			System.out.println("Introduzca los minutos: ");
@@ -56,7 +56,9 @@ public class Ejercicio01 {
 		
 		segundosTotales = incrementarSegundos + segundo + (minuto * 60) + (hora * 3600);
 		
-		hora = segundosTotales / 3600;
+		
+		
+		hora = (segundosTotales / 3600) % 24;
 		minuto = (segundosTotales % 3600) / 60;
 		segundo = segundosTotales % 60;
 		
