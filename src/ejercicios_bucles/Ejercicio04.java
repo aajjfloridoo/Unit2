@@ -2,14 +2,15 @@ package ejercicios_bucles;
 
 import java.util.Scanner;
 
-public class Ejercicio03 {
+public class Ejercicio04 {
 
 	public static void main(String[] args) {
 
 		int a;
 		int b;
-		int min;
-		int mcd = 1;
+		int max;
+		int mcm = 1;
+		boolean encontrado = false;
 		
 		Scanner sc = new Scanner(System.in);
 
@@ -19,16 +20,16 @@ public class Ejercicio03 {
 		System.out.println("Indique el segundo número: ");
 		b = sc.nextInt();
 		
-		min = Math.min(a, b);
+		max = Math.max(a, b);
 		
-		for ( int i = min; i >= 1 ; i-- ) {
-			if (a % i == 0 && b % i == 0) {
-				mcd = i;
-				break;
+		for ( int i = max; !encontrado ; i++ ) {
+			if (i % a == 0 && i % b == 0) {
+				mcm = i;
+				encontrado = true;
 			}
 		}
 		
-		System.out.println("El MCD de " + a + " y " + b + " es: " + mcd);
+		System.out.println("El MCM de " + a + " y " + b + " es: " + mcm);
 		
 		sc.close();
 	}
